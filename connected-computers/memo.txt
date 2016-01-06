@@ -1,0 +1,22 @@
+Bijan Cronin
+
+CS310 - Project 1
+
+Challenges/Learned:
+
+First challenge for me was that I've never worked with libraries. It took me a while to understand how to implement the libraries into my program. Secondly I began to use Eclipse as my IDE for this course and haden't worked with it before. I got a hang of it after some time.
+
+Once I was able to implement the libraries the program was pretty straight forward to code but I did encounter some mind numbingly hard to debug issues.The main issue was with how to create the two seperate connected components. I was using a for each loop to go through all of the nodes in the graph to create the connected components but it was creating one graph with the two connected compenents in one and I could not figure out why my code would not seperate them.
+
+I then edited my code and it was only creating one connected component and was breaking out of the for each loop. I wrapped the for each in a do-while loop (which took forever to realize) and that did the trick.
+
+Question #1:
+
+High degree nodes in the connected components means that the node has connected to many other nodes.
+
+Question #2:
+
+High degree nodes in the maximum spanning tree of the connected components means that the node has sent high volumes of packets to many nodes.
+
+
+
